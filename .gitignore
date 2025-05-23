@@ -1,0 +1,6 @@
+echo "venv/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pkl" >> .gitignore
+echo "*.png" >> .gitignore
+echo "*.csv" >> .gitignore
+echo "metrics.txt" >> .gitignore
