@@ -1,1 +1,8 @@
 # GitHub Actions CI workflow file
+name: Run Python Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
