@@ -1,15 +1,15 @@
-Accuracy: 0.48
+Accuracy: 0.6
 
 Classification Report:
               precision    recall  f1-score   support
 
-high_arousal       0.41      0.70      0.52        10
- low_arousal       0.62      0.33      0.43        15
+high_arousal       0.00      0.00      0.00         2
+ low_arousal       0.60      1.00      0.75         3
 
-    accuracy                           0.48        25
-   macro avg       0.52      0.52      0.48        25
-weighted avg       0.54      0.48      0.47        25
+    accuracy                           0.60         5
+   macro avg       0.30      0.50      0.38         5
+weighted avg       0.36      0.60      0.45         5
 
 Confusion Matrix:
-[[ 7  3]
- [10  5]]
+[[0 2]
+ [0 3]]
