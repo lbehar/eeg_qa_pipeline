@@ -3,11 +3,11 @@ import pandas as pd
 import numpy as np
 import joblib
 from model.train_classifier import simulate_arousal_labels as simulate_labels
-
+from model.train_classifier import train_eeg_classifier
 
 def test_simulate_labels_validity():
     labels = simulate_labels(100)
-    valid_labels = {"normal", "seizure", "drowsy", "focused"}
+    valid_labels = {"high_arousal", "low_arousal"}
     assert set(labels).issubset(valid_labels)
 
 def test_model_training_and_saving(tmp_path):
