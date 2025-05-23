@@ -2,7 +2,8 @@ import os
 import pandas as pd
 import numpy as np
 import joblib
-from model.train_classifier import simulate_labels, train_eeg_classifier
+from model.train_classifier import simulate_arousal_labels as simulate_labels
+
 
 def test_simulate_labels_validity():
     labels = simulate_labels(100)
